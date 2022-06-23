@@ -1,0 +1,107 @@
+:root {
+  --navHeight: 95px;
+  --fontColorAzul: #0D142B;
+  --fontColorRojo: #FF1824;
+}
+
+.navbar {
+  height: var(--navHeight);
+  min-height: var(--navHeight);
+  top: 0;
+  align-items: center;
+}
+
+.form__container {
+  padding: 80px 0;
+  width: 90vw;
+  margin: 20px auto;
+}
+.form__title {
+  color: #0E2E50;
+}
+
+.form__subtitulo {
+  color: #0E2E50;
+}
+
+footer h5 {
+  color: #0E2E50;
+  font-size: 2rem;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  /* background-color: red; */
+  padding: 10px 0;
+}
+
+.form__div {
+  border-radius: 10px;
+  width: 70%;
+  outline: 1px solid gray;
+  padding: 20px 60px;
+  text-align: center;
+  background-color: white;
+}
+
+.form__div div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__div input{
+  /* padding-bottom: 10px; */
+  border: none;
+  background: transparent;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+
+.form__div input:focus-visible {
+  box-shadow: 0px 1px gray;
+}
+
+.form__div input:hover {
+  box-shadow: 0px 1px gray;
+}
+
+textarea {
+  resize: none;
+  background: transparent;
+  border: none;
+  margin-bottom: 10px;
+  transition: all .5s;
+  height: 100px;
+}
+
+.form__div textarea:focus-visible {
+  box-shadow: 0px 1px gray;
+}
+.form__div textarea:hover {
+  box-shadow: 0px 1px gray;
+}
+
+.form__div textarea:focus-visible{
+  /* border: none; */
+  outline: none;
+}
+
+.form__div input:focus-visible{
+  /* border: none; */
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .form__div {
+    border-radius: 10px;
+    width: 80%;
+    outline: 1px solid gray;
+    padding: 20px 20px;
+    text-align: center;
+  }
+}

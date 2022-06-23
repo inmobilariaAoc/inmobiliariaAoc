@@ -1,0 +1,70 @@
+:root {
+  --navHeight: 95px;
+  --fontColorAzul: #0D142B;
+  --fontColorRojo: #FF1824;
+}
+
+.navbar {
+  height: var(--navHeight);
+  top: 0;
+}
+
+.insitucional {
+  position: relative;
+  /* top: 95px; */
+  /* padding-top: var(--navHeight); */
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: calc(100vh - var(--navHeight));
+}
+
+.insitucional__container {
+  margin-top: 95px;
+  position: relative;
+  /* top: var(--navHeight); */
+  left: 0;
+  right: 0;
+  height: calc(100vh - var(--navHeight));
+  /* margin-bottom: 50px; */
+}
+  
+
+.img__institucional {
+  width: 100%;
+  position: absolute;
+  z-index: -100;
+}
+
+.img__int {
+  width: 100%;
+  height: calc(100vh - var(--navHeight));
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+.texto__institucional {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.texto__institucional p{
+  padding: 0 20px;
+  color: var(--fontColorAzul);
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+  .texto__institucional p{
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+  }
+}
