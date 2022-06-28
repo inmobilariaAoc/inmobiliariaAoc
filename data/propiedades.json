@@ -7,7 +7,7 @@
     "titulo":"Importante local comercial",
     "localidad" : ", Gonzalez catan",
     "direccion": "A mts. de ruta 21",
-    "precio": "",
+    "precio": "$70.000",
     "img": "../img/propiedad1.jpg",
     "descripcion": "departamento con hermosa vista, 3 ambientes, ubicacion centrica",
     "superficie":"70,97 m2"
@@ -20,7 +20,7 @@
     "titulo":"Local comercial",
     "localidad" : ", Gonzalez catan",
     "direccion": "Tranway y Rivas",
-    "precio": "",
+    "precio": "$70.000",
     "img": "../img/propiedad2.jpg",
     "descripcion": "departamento con hermosa vista, 3 ambientes, ubicacion centrica",
     "superficie":"24 m2"
@@ -33,7 +33,7 @@
     "titulo":"Local comercial",
     "localidad" : ", Gonzalez catan",
     "direccion": "Rivas y tranway",
-    "precio": "",
+    "precio": "$75.000",
     "img": "../img/propiedad3.jpg",
     "descripcion": "departamento con hermosa vista, 2 ambientes, ubicacion centrica",
     "superficie":""
@@ -46,7 +46,7 @@
     "titulo":"Propiedad",
     "localidad" : ", Gonzalez catan",
     "direccion": "Calle Piogana 4480",
-    "precio": "",
+    "precio": "$45.000",
     "img": "../img/propiedad4.jpg",
     "descripcion": "departamento con hermosa vista, 2 ambientes, ubicacion centrica",
     "superficie":""
@@ -85,7 +85,7 @@
     "titulo":"quinta 3 ambientes",
     "localidad" : "localidad-3",
     "direccion": "direccion-1",
-    "precio": "50.000",
+    "precio": "$50.000",
     "img": "../img/property-1.jpg",
     "descripcion": "departamento con hermosa vista, 3 ambientes, ubicacion centrica",
     "superficie":"100m2"
@@ -98,7 +98,7 @@
     "titulo":"casa 2 ambientes",
     "localidad" : "localidad-4",
     "direccion": "direccion-2",
-    "precio": "50.000",
+    "precio": "$50.000",
     "img": "../img/property-2.jpg",
     "descripcion": "departamento con hermosa vista, 1 ambiente, ubicacion centrica",
     "superficie":"100m2"
@@ -111,7 +111,7 @@
     "titulo":"casa 2 ambientes",
     "localidad" : "localidad-1",
     "direccion": "direccion-3",
-    "precio": "50.000",
+    "precio": "$50.000",
     "img": "../img/property-3.jpg",
     "descripcion": "departamento con hermosa vista, 3 ambientes, ubicacion centrica",
     "superficie":"100m2"
@@ -124,7 +124,7 @@
     "titulo":"titulo 10",
     "localidad" : "localidad 2",
     "direccion": "direccion-4",
-    "precio": "precio 10",
+    "precio": "$60.000",
     "img": "../img/property-4.jpg",
     "descripcion": "departamento con hermosa vista, 5 ambientes, ubicacion centrica",
     "superficie":"100m2"

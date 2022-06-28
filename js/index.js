@@ -25,7 +25,7 @@ function renderPropiedades(data){
           <div class="btn-color rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">${propiedad.categoriaTodos}</div>
           <a target="_BLANK" href="https://wa.me/541158880791?text=Buenas%20,%20me%20gustaría%20información%20sobre%20la%20propiedad:%20${propiedad.titulo}%20con%20dirección%20en%20${propiedad.direccion}${propiedad.localidad}%20gracias!.">
             <div class="bg-white rounded-top text-color position-absolute start-0 bottom-0 mx-4 pt-1 px-3">
-              wp
+              Enviar mensaje
             </div>
           <a/>
       </div>
