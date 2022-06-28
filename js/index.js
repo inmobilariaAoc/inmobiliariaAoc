@@ -30,7 +30,7 @@ function renderPropiedades(data){
           <a/>
       </div>
       <div class="p-4 pb-0">
-          <h5 class="text-color mb-3">$${propiedad.precio}</h5>
+          <h5 class="text-color mb-3">${propiedad.precio}</h5>
           <a class="d-block h5 mb-2 text-color" href="#">${propiedad.titulo}</a>
           <p><i class="fa fa-map-marker-alt text-primary me-2"></i>${propiedad.direccion} ${propiedad.localidad}</p>
       </div>
