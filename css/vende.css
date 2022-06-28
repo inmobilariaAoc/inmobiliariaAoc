@@ -96,6 +96,11 @@ textarea {
   outline: none;
 }
 
+.servicios__text {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 @media screen and (max-width: 767px) {
   .form__div {
     border-radius: 10px;
@@ -103,5 +108,9 @@ textarea {
     outline: 1px solid gray;
     padding: 20px 20px;
     text-align: center;
+  }
+
+  .servicios__text {
+    font-size: 1.2rem;
   }
 }

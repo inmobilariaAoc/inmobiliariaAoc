@@ -416,3 +416,7 @@ h6 {
     background-color: var(--fontColorAzul);
     color: white;
 }
+
+.fadeIn {
+    font-family: Tahoma;
+}
